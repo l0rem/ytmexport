@@ -6,8 +6,9 @@ which helps sharing songs that You like with your friends.
 In order to access your YT Music library you are going to need auth headers from your browser session.
 Follow [THIS](https://ytmusicapi.readthedocs.io/en/latest/setup.html) guide and store your headers 
 locally as a JSON file.
+
 ```python
-from core import YtEngine
+from ytmexport import YtEngine
 
 ytm = YtEngine()
 ytm.export_likes()
